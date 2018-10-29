@@ -2,9 +2,9 @@
  from setuptools.extension import Extension
  from Cython.Build import cythonize
  import numpy
- import os
+ import os   
  import imp
-
+            
 
 
 VERSION = imp.load_source('version', os.path.join('.', 'darkflow', 'version.py'))
