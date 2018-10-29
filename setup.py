@@ -5,7 +5,7 @@
  import os
  import imp
 
-///SOURCE
+
 
 VERSION = imp.load_source('version', os.path.join('.', 'darkflow', 'version.py'))
 VERSION = VERSION.__version__
